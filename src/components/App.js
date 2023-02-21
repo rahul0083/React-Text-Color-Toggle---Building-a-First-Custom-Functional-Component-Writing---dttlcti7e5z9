@@ -3,7 +3,7 @@ import '../styles/App.css';
 
 const App = () => {
 //code here 
-const {style,setStyle}=useState("redColor");
+const [style,setStyle]=useState("redColor");
 const changeStyle=()=>{
   setStyle("blueColor");
 }
