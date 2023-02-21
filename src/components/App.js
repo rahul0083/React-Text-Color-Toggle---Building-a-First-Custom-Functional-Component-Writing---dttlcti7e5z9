@@ -10,7 +10,7 @@ const changeStyle=()=>{
 
   return (
     <div id="main">
-      <p className="App" >Newton School</p>
+      <p className={style}>Newton School</p>
       <button id='button' onClick={changeStyle}>Change Style</button>
     </div>
   )
